@@ -8,10 +8,10 @@ A 12v main supply is present which is connected to 5v voltage regulator which pr
 voltage regulator is connected to 12V which would be used to power the IR receiver(Connecting IR receiver to 5v may cause interference and wil
 make your car to work improperly
 
-##Controller
+## Controller
 The controller uses Atemga 328 PU which is programmed using Arduino. A 5v supply is sufficient for it to work with IR led.
 To check whether the IR led is working or not, you just have to view it under a smartphone camera.
 It uses joystick to send the signals to the car. 
 
-##Libraries
+## Libraries
 A predefined arduino IR library: IrRemote, is used for convenience.
